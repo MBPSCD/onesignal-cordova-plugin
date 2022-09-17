@@ -8,7 +8,16 @@ android.defaultConfig {
 // Required for Android Support Library 26.0.0+ and Google Play services 11.+
 repositories {
   maven { url 'https://maven.google.com' }
+
+// start Added by MBPSCD to include OneSignal-3.16.1.aar in build gradle
+  flatDir{ dirs 'libs' }
 }
+
+dependencies {
+    implementation fileTree(includes: ['*.aar'],dir: 'libs')
+}
+
+// end Added by MBPSCD to include OneSignal-3.16.1.aar in build gradle
 
 // Adding Onesignal-Gradle-Plugin to align gms, android support library, and firebase
 //   dependencies between other plugins.

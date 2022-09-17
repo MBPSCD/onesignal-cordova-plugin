@@ -35,3 +35,9 @@ To make things easier, we have published demo projects for [Cordova](https://git
 * Cordova, Ionic (1 through 4), and Phonegap
 * Android 4.0.3 (API Level 15) through 9.0 (API Level 28), and Amazon FireOS
 * iOS 7 - 12.2
+
+
+#### This plugin is updated by MBPSCD to support Target SDK 32
+for platform android,     <framework src="com.onesignal:OneSignal:3.16.1" /> is removed, include OneSignal-3.16.1.aar instead.
+OneSignal-3.16.1.aar is built from https://github.com/MBPSCD/OneSignal-Android-SDK/tree/2022R11
+detail reference : https://confluence.ap.manulife.com/display/HDMT/update+onesignal+plugin
